@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E70EA942534E4C700F591B6 /* doctored_face_detection_back_256x256_float32.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5E70EA932534E4C700F591B6 /* doctored_face_detection_back_256x256_float32.mlmodel */; };
 		9618D3DC25063E590045825B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618D3DB25063E590045825B /* AppDelegate.swift */; };
 		9618D3E025063E590045825B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618D3DF25063E590045825B /* ViewController.swift */; };
 		9618D3E325063E590045825B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9618D3E125063E590045825B /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E70EA932534E4C700F591B6 /* doctored_face_detection_back_256x256_float32.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = doctored_face_detection_back_256x256_float32.mlmodel; sourceTree = "<group>"; };
 		9618D3D825063E590045825B /* BlazeFace CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlazeFace CoreML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9618D3DB25063E590045825B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9618D3DF25063E590045825B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,11 +66,12 @@
 		9618D3DA25063E590045825B /* BlazeFace CoreML */ = {
 			isa = PBXGroup;
 			children = (
+				5E70EA932534E4C700F591B6 /* doctored_face_detection_back_256x256_float32.mlmodel */,
+				96E2A00B250A152800E341B3 /* BlazeFaceScaled.mlmodel */,
 				9618D3DB25063E590045825B /* AppDelegate.swift */,
 				9618D3DF25063E590045825B /* ViewController.swift */,
 				9618D3F42506A46E0045825B /* BlazeFaceModel.swift */,
 				9618D3F22506A1E30045825B /* FaceOverlayView.swift */,
-				96E2A00B250A152800E341B3 /* BlazeFaceScaled.mlmodel */,
 				9618D3E125063E590045825B /* Main.storyboard */,
 				9618D3E425063E5D0045825B /* Assets.xcassets */,
 				9618D3E625063E5D0045825B /* LaunchScreen.storyboard */,
@@ -161,6 +164,7 @@
 				96E2A00C250A152800E341B3 /* BlazeFaceScaled.mlmodel in Sources */,
 				9618D3DC25063E590045825B /* AppDelegate.swift in Sources */,
 				9618D3F32506A1E30045825B /* FaceOverlayView.swift in Sources */,
+				5E70EA942534E4C700F591B6 /* doctored_face_detection_back_256x256_float32.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 88UXXNYF67;
+				DEVELOPMENT_TEAM = W97Z367GJV;
 				INFOPLIST_FILE = "BlazeFace CoreML/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 88UXXNYF67;
+				DEVELOPMENT_TEAM = W97Z367GJV;
 				INFOPLIST_FILE = "BlazeFace CoreML/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
